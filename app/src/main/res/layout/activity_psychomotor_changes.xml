@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PsychomotorChangesActivity">
+
+    <TextView
+        android:id="@+id/psychChangeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#089F82"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingVertical="15dp"
+        android:text="psychomotor changes"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/psychPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="5dp"
+        android:text="Psychomotor Slowing"
+        android:textSize="20sp"
+        android:textStyle="bold"  />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:paddingBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/psySlow0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickSlow"
+            android:text="@string/psy_slow_0"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/psySlow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickSlow"
+            android:text="@string/psy_slow_1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/psySlow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickSlow"
+            android:text="@string/psy_slow_2"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/psySlow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickSlow"
+            android:text="@string/psy_slow_3"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/psyAgitPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp"
+        android:text="@string/psychomotor_agitation"
+        android:textSize="20sp"
+        android:textStyle="bold"  />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal">
+
+        <RadioButton
+            android:id="@+id/psyAgit0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickAgit"
+            android:text="@string/psy_agit_0"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/psyAgit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickAgit"
+            android:text="@string/psy_agit_1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/psyAgit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickAgit"
+            android:text="@string/psy_agit_2"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/psyAgit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClickAgit"
+            android:text="@string/psy_agit_3"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitPsych"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="#2A810A"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/submit_button"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

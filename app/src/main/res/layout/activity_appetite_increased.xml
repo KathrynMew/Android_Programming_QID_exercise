@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppetiteIncreasedActivity">
+
+    <TextView
+        android:id="@+id/appIncTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#089F82"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingVertical="15dp"
+        android:text="@string/appetite"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appIncPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:text="Appetite (Increased)"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal">
+
+        <RadioButton
+            android:id="@+id/appInc0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClick"
+            android:text="@string/apt_no_change"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/appInc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClick"
+            android:text="@string/apt_inc_1"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/appInc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClick"
+            android:text="@string/apt_inc_2"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/appInc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="actionClick"
+            android:text="@string/apt_inc_3"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitAppetiteIncreased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="#2A810A"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/next_page_button"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

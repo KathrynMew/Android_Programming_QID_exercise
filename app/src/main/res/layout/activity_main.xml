@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#089F82"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingVertical="5dp"
+        android:text="Quick Inventory of Depressive Symptomatology (QIDS)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Enter Username to Begin" />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username or User ID"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/beginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#089F82"
+        android:layout_gravity="bottom|center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="begin"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</LinearLayout>

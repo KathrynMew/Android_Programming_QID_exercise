@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">lecture8_exercise</string>
+
+    <string name="sleep_onset_insomnia">sleep onset insomnia</string>
+    <string name="mid_noc_insomnia">mid-nocturnal insomnia</string>
+    <string name="early_morn_insomnia">early morning insomnia</string>
+    <string name="hypersomnia">hypersomnia</string>
+    <string name="mood">mood</string>
+    <string name="appetite">appetite</string>
+    <string name="weight">weight</string>
+    <string name="concentration">concentration</string>
+    <string name="guilt">guilt</string>
+    <string name="suicidal_ideation">suicidal ideation</string>
+    <string name="interest">interest</string>
+    <string name="fatigue">fatigue</string>
+    <string name="psychomotor_slowing">Psychomotor Slowing</string>
+    <string name="psychomotor_agitation">Psychomotor Agitation</string>
+
+    <string name="prev_page_button">back</string>
+    <string name="next_page_button">next</string>
+    <string name="submit_button">submit</string>
+    <string name="questions_unanswered_message">Could not proceed: Questions unanswered</string>
+
+    <string name="sleep_onset_0">Never takes longer than 30 minutes to fall asleep.</string>
+    <string name="sleep_onset_1">Takes at least 30 minutes to fall asleep, less than half the time.</string>
+    <string name="sleep_onset_2">Takes at least 30 minutes to fall asleep, more than half the time.</string>
+    <string name="sleep_onset_3">Takes more than 60 minutes to fall asleep, more than half the time.</string>
+
+    <string name="mid_noc_0">Does not wake up at night.</string>
+    <string name="mid_noc_1">Restless, light sleep with few awakenings.</string>
+    <string name="mid_noc_2">Wakes up at least once a night, but goes back to sleep easily.</string>
+    <string name="mid_noc_3">Awakens more than once a night and stays awake for 20 minutes or more, more than half the time.</string>
+
+    <string name="morn_insom_0">Less than half the time, awakens no more than 30 minutes before necessary.</string>
+    <string name="morn_insom_1">More than half the time, awakens more than 30 minutes before need be.</string>
+    <string name="morn_insom_2">Awakens at least one hour before need be, more than half the time.</string>
+    <string name="morn_insom_3">Awakens at least two hours before need be, more than half the time.</string>
+
+    <string name="hyper_0">Sleeps no longer than 7-8 hours/night, without naps.</string>
+    <string name="hyper_1">Sleeps no longer than 10 hours in a 24 hour period (including naps).</string>
+    <string name="hyper_2">Sleeps no longer than 12 hours in a 24 hour period (including naps).</string>
+    <string name="hyper_3">Sleeps longer than 12 hours in a 24 hour period (including naps).</string>
+
+    <string name="mood_0">Does not feel sad.</string>
+    <string name="mood_1">Feels sad less than half the time.</string>
+    <string name="mood_2">Feels sad more than half the time.</string>
+    <string name="mood_3">Feels intensely sad virtually all the time.</string>
+
+    <string name="increased">Increased</string>
+    <string name="decreased">Decreased</string>
+
+    <string name="apt_no_change">No change from usual appetite</string>
+    <string name="apt_inc_1">More frequently feels a need to eat than usual.</string>
+    <string name="apt_inc_2">Regularly eats more often and/or greater amounts than usual.</string>
+    <string name="apt_inc_3">Feels driven to overeat at and between meals.</string>
+    <string name="apt_dec_1">Eats somewhat less often and/or lesser amounts than usual.</string>
+    <string name="apt_dec_2">Eats much less than usual and only with personal effort.</string>
+    <string name="apt_dec_3">Eats rarely within a 24-hour period, and only with extreme personal effort or with persuasion by others.</string>
+
+    <string name="wt_no_change">Has experienced no weight change.</string>
+    <string name="wt_inc_1">Feels as if some slight weight gain has occurred.</string>
+    <string name="wt_inc_2">Has gained 2 pounds or more.</string>
+    <string name="wt_inc_3">Has gained 5 pounds or more.</string>
+    <string name="wt_dec_1">Feels as if some slight weight loss has occurred.</string>
+    <string name="wt_dec_2">Has lost 2 pounds or more.</string>
+    <string name="wt_dec_3">Has lost 5 pounds or more.</string>
+
+    <string name="concen_0">No change in usual capacity to concentrate and decide.</string>
+    <string name="concen_1">Occasionally feels indecisive or notes that attention often wanders.</string>
+    <string name="concen_2">Most of the time struggles to focus attention or make decisions.</string>
+    <string name="concen_3">Cannot concentrate well enough to read or cannot make even minor decisions.</string>
+
+    <string name="guilt_0">Sees self as equally worthwhile and deserving as others.</string>
+    <string name="guilt_1">Is more self-blaming than usual.</string>
+    <string name="guilt_2">Largely believes that he/she causes problems for others.</string>
+    <string name="guilt_3">Ruminates over major and minor defects in self.</string>
+
+    <string name="suicide_0">Does not think of suicide or death.</string>
+    <string name="suicide_1">Feels life is empty or is not worth living.</string>
+    <string name="suicide_2">Thinks of suicide/death several times a week for several minutes.</string>
+    <string name="suicide_3">Thinks of suicide/death several times a day in depth, or has made specific plans to commit or attempted suicide.</string>
+
+    <string name="int_0">No change from usual level of interest in other people and activities.</string>
+    <string name="int_1">Notices a reduction in former interests/activities.</string>
+    <string name="int_2">Finds only one or two former interests remain.</string>
+    <string name="int_3">Has virtually no interest in formerly pursued activities.</string>
+
+    <string name="fati_0">No change in usual level of energy.</string>
+    <string name="fati_1">Tires more easily than usual.</string>
+    <string name="fati_2">Makes significant personal effort to initiate or maintain usual daily activities.</string>
+    <string name="fati_3">Unable to carry out most of usual daily activities due to lack of energy.</string>
+
+    <string name="psy_slow_0">Normal speed of thinking, gesturing, and speaking.</string>
+    <string name="psy_slow_1">Notes slowed thinking, and voice modulation is reduced.</string>
+    <string name="psy_slow_2">Takes several seconds to respond to most questions; reports slowed thinking.</string>
+    <string name="psy_slow_3">Is largely unresponsive to most questions without strong encouragement.</string>
+
+    <string name="psy_agit_0">No increased speed or disorganization in thinking or gesturing.</string>
+    <string name="psy_agit_1">Fidgets, wrings hands, and shifts positions often.</string>
+    <string name="psy_agit_2">Describes impulse to move about and displays motor restlessness.</string>
+    <string name="psy_agit_3">Unable to stay seated; paces about with or without permission.</string>
+</resources>

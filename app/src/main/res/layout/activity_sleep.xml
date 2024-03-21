@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SleepActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sleepTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#089F82"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingVertical="5dp"
+                android:text="sleep"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/sleepPrompt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="5dp"
+                android:text="@string/sleep_onset_insomnia"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/onset0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickOnset"
+                    android:text="@string/sleep_onset_0"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/onset1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickOnset"
+                    android:text="@string/sleep_onset_1"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/onset2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickOnset"
+                    android:text="@string/sleep_onset_2"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/onset3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickOnset"
+                    android:text="@string/sleep_onset_3"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/sleepPrompt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="5dp"
+                android:text="@string/mid_noc_insomnia"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal" >
+
+                <RadioButton
+                    android:id="@+id/midNoc0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMidNoc"
+                    android:text="@string/mid_noc_0"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/midNoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMidNoc"
+                    android:text="@string/mid_noc_1"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/midNoc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMidNoc"
+                    android:text="@string/mid_noc_2"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/midNoc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMidNoc"
+                    android:text="@string/mid_noc_3"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/earlyMornPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="5dp"
+                android:text="@string/early_morn_insomnia"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/earlyMorn0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMorn"
+                    android:text="@string/morn_insom_0"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/earlyMorn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMorn"
+                    android:text="@string/morn_insom_1"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/earlyMorn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMorn"
+                    android:text="@string/morn_insom_2"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/earlyMorn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickMorn"
+                    android:text="@string/morn_insom_3"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/hyperPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="5dp"
+                android:text="@string/hypersomnia"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/hyper0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickHyper"
+                    android:text="@string/hyper_0"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/hyper1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickHyper"
+                    android:text="@string/hyper_1"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/hyper2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickHyper"
+                    android:text="@string/hyper_2"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/hyper3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:onClick="onClickHyper"
+                    android:text="@string/hyper_3"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submitSleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:backgroundTint="#2A810A"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/next_page_button"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
